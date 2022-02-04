@@ -78,3 +78,29 @@ const filling = () => {
     fillingArr();
 };
 filling();
+///////////////////////c///////////////////////////////
+
+// assdssddffffrrreeeweggggg // => 'as2ds2d2f4r3e3weg5';
+
+const strTwo = 'assdssddffffrrreeeweggggg';
+
+function strAAA(string) {
+    const strArr = string.split('');
+    const newArr = [];
+    // const uniArr = [...new Set(strArr)]
+    // console.log(uniArr);
+
+    strArr.reduce(function(count, item) {
+        if (count !== item) {
+            newArr.push(item);
+        }
+        return count = item
+
+    }, '');
+
+    console.log(newArr.join(''))
+
+};
+
+strAAA(strTwo);
+/////////////////////////////f/////////////////////////////
